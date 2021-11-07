@@ -11,7 +11,10 @@ import SwiftUI
 struct CoinTickerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(
+                viewModel: .init(
+                    symbols: Coin.all                            )
+            )
         }
     }
 }
