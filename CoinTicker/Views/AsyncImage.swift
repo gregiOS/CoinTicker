@@ -7,6 +7,12 @@
 
 import SwiftUI
 
+#if DEBUG
+
+var testImages: [URL?: Image] = [:]
+
+#endif
+
 struct AsyncImage<T: View>: View {
     let url: URL?
     let transform: (Image) -> T

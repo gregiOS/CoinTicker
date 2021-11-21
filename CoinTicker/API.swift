@@ -25,7 +25,9 @@ struct APILive: API {
         
         return session
             .dataTaskPublisher(for: url)
-            .map { $0.data }
+            .map { response in
+                return response.data
+            }
             .decode(type: T.self, decoder: decoder())
             .eraseToAnyPublisher()
     }

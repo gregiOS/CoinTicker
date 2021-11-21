@@ -14,8 +14,18 @@
 		B25480A62738795500969706 /* CoinCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25480A52738795500969706 /* CoinCell.swift */; };
 		B25480A82738796800969706 /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25480A72738796800969706 /* AsyncImage.swift */; };
 		B25480AB2738798200969706 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25480AA2738798200969706 /* HeaderView.swift */; };
+		B294DC2E2749A31400CD62F5 /* CoinListSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B294DC2D2749A31400CD62F5 /* CoinListSnapshotTests.swift */; };
+		B294DC312749A32E00CD62F5 /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = B294DC302749A32E00CD62F5 /* SnapshotTesting */; };
+		B294DC372749A39200CD62F5 /* xrp.json in Resources */ = {isa = PBXBuildFile; fileRef = B294DC322749A39200CD62F5 /* xrp.json */; };
+		B294DC382749A39200CD62F5 /* ada.json in Resources */ = {isa = PBXBuildFile; fileRef = B294DC332749A39200CD62F5 /* ada.json */; };
+		B294DC392749A39200CD62F5 /* doge.json in Resources */ = {isa = PBXBuildFile; fileRef = B294DC342749A39200CD62F5 /* doge.json */; };
+		B294DC3B2749A39200CD62F5 /* btc.json in Resources */ = {isa = PBXBuildFile; fileRef = B294DC362749A39200CD62F5 /* btc.json */; };
+		B294DC3E2749A89100CD62F5 /* eth.json in Resources */ = {isa = PBXBuildFile; fileRef = B294DC3D2749A89100CD62F5 /* eth.json */; };
+		B294DC41274AA81F00CD62F5 /* XCTestCase+AssertSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = B294DC40274AA81F00CD62F5 /* XCTestCase+AssertSnapshot.swift */; };
+		B294DC44274AA83A00CD62F5 /* MockAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B294DC43274AA83A00CD62F5 /* MockAPI.swift */; };
+		B294DC46274AAD0600CD62F5 /* NumberFormatter+Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = B294DC45274AAD0600CD62F5 /* NumberFormatter+Currency.swift */; };
 		B2D2EF252738107E007FDE88 /* CoinTickerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D2EF242738107E007FDE88 /* CoinTickerApp.swift */; };
-		B2D2EF272738107E007FDE88 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D2EF262738107E007FDE88 /* ContentView.swift */; };
+		B2D2EF272738107E007FDE88 /* CoinListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D2EF262738107E007FDE88 /* CoinListView.swift */; };
 		B2D2EF2927381080007FDE88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2D2EF2827381080007FDE88 /* Assets.xcassets */; };
 		B2D2EF2C27381080007FDE88 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2D2EF2B27381080007FDE88 /* Preview Assets.xcassets */; };
 		B2D2EF3627381080007FDE88 /* CoinTickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D2EF3527381080007FDE88 /* CoinTickerTests.swift */; };
@@ -48,9 +58,18 @@
 		B25480A52738795500969706 /* CoinCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinCell.swift; sourceTree = "<group>"; };
 		B25480A72738796800969706 /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
 		B25480AA2738798200969706 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		B294DC2D2749A31400CD62F5 /* CoinListSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinListSnapshotTests.swift; sourceTree = "<group>"; };
+		B294DC322749A39200CD62F5 /* xrp.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = xrp.json; sourceTree = "<group>"; };
+		B294DC332749A39200CD62F5 /* ada.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ada.json; sourceTree = "<group>"; };
+		B294DC342749A39200CD62F5 /* doge.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = doge.json; sourceTree = "<group>"; };
+		B294DC362749A39200CD62F5 /* btc.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = btc.json; sourceTree = "<group>"; };
+		B294DC3D2749A89100CD62F5 /* eth.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = eth.json; sourceTree = "<group>"; };
+		B294DC40274AA81F00CD62F5 /* XCTestCase+AssertSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+AssertSnapshot.swift"; sourceTree = "<group>"; };
+		B294DC43274AA83A00CD62F5 /* MockAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAPI.swift; sourceTree = "<group>"; };
+		B294DC45274AAD0600CD62F5 /* NumberFormatter+Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NumberFormatter+Currency.swift"; sourceTree = "<group>"; };
 		B2D2EF212738107E007FDE88 /* CoinTicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoinTicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2D2EF242738107E007FDE88 /* CoinTickerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinTickerApp.swift; sourceTree = "<group>"; };
-		B2D2EF262738107E007FDE88 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B2D2EF262738107E007FDE88 /* CoinListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinListView.swift; sourceTree = "<group>"; };
 		B2D2EF2827381080007FDE88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2D2EF2B27381080007FDE88 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B2D2EF3127381080007FDE88 /* CoinTickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoinTickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B294DC312749A32E00CD62F5 /* SnapshotTesting in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +118,7 @@
 			children = (
 				B25480A1273878DE00969706 /* URLImage+Coins.swift */,
 				B25480A32738793E00969706 /* Image+Mocks.swift */,
+				B294DC45274AAD0600CD62F5 /* NumberFormatter+Currency.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -107,10 +128,45 @@
 			children = (
 				B25480A72738796800969706 /* AsyncImage.swift */,
 				B25480A52738795500969706 /* CoinCell.swift */,
-				B2D2EF262738107E007FDE88 /* ContentView.swift */,
+				B2D2EF262738107E007FDE88 /* CoinListView.swift */,
 				B25480AA2738798200969706 /* HeaderView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		B294DC2F2749A32E00CD62F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B294DC3C2749A39600CD62F5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B294DC3D2749A89100CD62F5 /* eth.json */,
+				B294DC332749A39200CD62F5 /* ada.json */,
+				B294DC362749A39200CD62F5 /* btc.json */,
+				B294DC342749A39200CD62F5 /* doge.json */,
+				B294DC322749A39200CD62F5 /* xrp.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B294DC3F274AA81700CD62F5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B294DC40274AA81F00CD62F5 /* XCTestCase+AssertSnapshot.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B294DC42274AA83600CD62F5 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				B294DC43274AA83A00CD62F5 /* MockAPI.swift */,
+			);
+			path = Mocks;
 			sourceTree = "<group>";
 		};
 		B2D2EF182738107E007FDE88 = {
@@ -120,6 +176,7 @@
 				B2D2EF3427381080007FDE88 /* CoinTickerTests */,
 				B2D2EF3E27381080007FDE88 /* CoinTickerUITests */,
 				B2D2EF222738107E007FDE88 /* Products */,
+				B294DC2F2749A32E00CD62F5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -158,7 +215,11 @@
 		B2D2EF3427381080007FDE88 /* CoinTickerTests */ = {
 			isa = PBXGroup;
 			children = (
+				B294DC42274AA83600CD62F5 /* Mocks */,
+				B294DC3F274AA81700CD62F5 /* Helpers */,
+				B294DC3C2749A39600CD62F5 /* Resources */,
 				B2D2EF3527381080007FDE88 /* CoinTickerTests.swift */,
+				B294DC2D2749A31400CD62F5 /* CoinListSnapshotTests.swift */,
 			);
 			path = CoinTickerTests;
 			sourceTree = "<group>";
@@ -188,6 +249,8 @@
 			dependencies = (
 			);
 			name = CoinTicker;
+			packageProductDependencies = (
+			);
 			productName = CoinTicker;
 			productReference = B2D2EF212738107E007FDE88 /* CoinTicker.app */;
 			productType = "com.apple.product-type.application";
@@ -206,6 +269,9 @@
 				B2D2EF3327381080007FDE88 /* PBXTargetDependency */,
 			);
 			name = CoinTickerTests;
+			packageProductDependencies = (
+				B294DC302749A32E00CD62F5 /* SnapshotTesting */,
+			);
 			productName = CoinTickerTests;
 			productReference = B2D2EF3127381080007FDE88 /* CoinTickerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -260,6 +326,9 @@
 				Base,
 			);
 			mainGroup = B2D2EF182738107E007FDE88;
+			packageReferences = (
+				B294DC2A2749A30400CD62F5 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */,
+			);
 			productRefGroup = B2D2EF222738107E007FDE88 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -285,6 +354,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B294DC382749A39200CD62F5 /* ada.json in Resources */,
+				B294DC392749A39200CD62F5 /* doge.json in Resources */,
+				B294DC3B2749A39200CD62F5 /* btc.json in Resources */,
+				B294DC3E2749A89100CD62F5 /* eth.json in Resources */,
+				B294DC372749A39200CD62F5 /* xrp.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,8 +380,9 @@
 				B25480AB2738798200969706 /* HeaderView.swift in Sources */,
 				B25480A2273878DE00969706 /* URLImage+Coins.swift in Sources */,
 				B25480A62738795500969706 /* CoinCell.swift in Sources */,
-				B2D2EF272738107E007FDE88 /* ContentView.swift in Sources */,
+				B2D2EF272738107E007FDE88 /* CoinListView.swift in Sources */,
 				B25480A82738796800969706 /* AsyncImage.swift in Sources */,
+				B294DC46274AAD0600CD62F5 /* NumberFormatter+Currency.swift in Sources */,
 				B254809F2738260200969706 /* API.swift in Sources */,
 				B2D2EF252738107E007FDE88 /* CoinTickerApp.swift in Sources */,
 				B25480A42738793E00969706 /* Image+Mocks.swift in Sources */,
@@ -318,6 +393,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B294DC44274AA83A00CD62F5 /* MockAPI.swift in Sources */,
+				B294DC2E2749A31400CD62F5 /* CoinListSnapshotTests.swift in Sources */,
+				B294DC41274AA81F00CD62F5 /* XCTestCase+AssertSnapshot.swift in Sources */,
 				B2D2EF3627381080007FDE88 /* CoinTickerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -657,6 +735,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B294DC2A2749A30400CD62F5 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-snapshot-testing.git";
+			requirement = {
+				kind = exactVersion;
+				version = 1.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B294DC302749A32E00CD62F5 /* SnapshotTesting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B294DC2A2749A30400CD62F5 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
+			productName = SnapshotTesting;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B2D2EF192738107E007FDE88 /* Project object */;
 }

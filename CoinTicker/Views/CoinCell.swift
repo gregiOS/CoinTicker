@@ -9,6 +9,8 @@ import SwiftUI
 
 struct CoinCell: View {
     let coin: Coin
+    let priceFormatter = NumberFormatter.usdCurrency
+    
     
     var body: some View {
         HStack {
@@ -20,10 +22,14 @@ struct CoinCell: View {
                 .frame(width: 24, height: 24)
             Text(coin.name)
             Spacer()
-            Text("\(coin.price) $")
+            Text(price)
             Image(systemName: "arrow.up.circle")
                 .foregroundColor(.green)
         }
+    }
+    
+    private var price: String {
+        priceFormatter.string(from: NSNumber(value: coin.price)) ?? ""
     }
     
     private func localImage() -> Image? {

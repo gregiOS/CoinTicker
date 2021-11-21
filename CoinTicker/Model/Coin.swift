@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Coin: Codable, Identifiable {
+struct Coin: Codable, Equatable, Identifiable {
     let id: Int
     let name: String
     let symbol: String
@@ -32,5 +32,13 @@ extension Coin {
         "AVAX",
         "UNI",
         "LINK",
+    ]
+    
+    static let tests = [
+        "ADA",
+        "ETH",
+        "BTC",
+        "DOGE",
+        "XRP",
     ]
 }
